@@ -1,0 +1,34 @@
+{
+  "name": "aircraft-image-service",
+  "version": "0.0.1",
+  "description": "Caching frontend to ADS-B Exchange's AirportDataThumbnails API",
+  "main": "image.js",
+  "contributors": [
+    {
+      "name": "Chris Dzombak",
+      "email": "chris@dzombak.com"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node geocode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdzombak/aircraft-image-service.git"
+  },
+  "author": "Chris Dzombak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdzombak/aircraft-image-service/issues"
+  },
+  "homepage": "https://github.com/cdzombak/aircraft-image-service#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cacheman-redis": "^1.1.2",
+    "express": "^4.15.4",
+    "redis": "^2.8.0",
+    "request": "^2.82.0",
+    "request-promise": "^4.2.2"
+  }
+}
