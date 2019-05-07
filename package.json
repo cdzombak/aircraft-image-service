@@ -26,9 +26,9 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "cacheman-redis": "^1.1.2",
-    "express": "^4.15.4",
+    "express": "^4.16.4",
     "redis": "^2.8.0",
-    "request": "^2.82.0",
+    "request": "^2.88.0",
     "request-promise": "^4.2.2"
   }
 }
