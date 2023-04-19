@@ -27,7 +27,7 @@
     "bluebird": "^3.5.0",
     "cacheman-redis": "^1.1.2",
     "express": "^4.16.4",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
   }
